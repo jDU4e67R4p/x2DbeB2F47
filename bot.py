@@ -1,3 +1,4 @@
+import os
 import discord
 from discord.embeds import Embed
 from discord_webhook.webhook import DiscordEmbed
